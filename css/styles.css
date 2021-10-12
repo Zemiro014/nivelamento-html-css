@@ -56,7 +56,9 @@ body {
 }
 .profile-title {
   margin: 35px 0 0;
+  font-size: 2rem; /* "rem" é um dimensão relativa (relativo a fonte raiz do htm que é de 16px) 2rem = 32px; o "em" é uma dimensão relativa (relativa a fonte do elemento pai)*/
 }
 .profile-description {
   margin: 0;
+  font-size: 1rem;
 }
